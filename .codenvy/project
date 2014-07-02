@@ -1,0 +1,1 @@
+{"type":"maven","properties":[{"name":"language.version","value":["1.6"]},{"name":"builder.name","value":["maven"]}, {"name":"runner.name","value":["JavaWeb"]},{"name":"framework","value":["spring"]}]}
