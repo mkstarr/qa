@@ -1,0 +1,25 @@
+p {
+   font-family: Verdana, sans-serif;
+ }
+ h2 {
+   font-size: 110%;
+   color: red;
+   background: white;
+ }
+ .note {
+   color: red;
+   background: yellow;
+   font-weight: bold;
+ }
+ p.warning {
+   background: url(warning.png) no-repeat fixed top;
+ }
+ #paragraph1 {
+   margin: 0;
+ }
+ a:hover {
+   text-decoration: none;
+ }
+ #news p {
+   color: red;
+ }

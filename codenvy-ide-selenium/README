@@ -1,0 +1,19 @@
+Codenvy selenium qa project
+
+By default it configured on test server: codenvy-dev.com, default tenant for testing: selenium and default browser GoogleChrome.
+
+HOW TO:
+
+Example of running tests with default configuration:
+
+    mvn clean integration-test -Pselenium-test
+
+There are four options that can be changed using system properties:
+    protocol / default: https
+    tenantName / default: selenium
+    host / default: codenvy-dev.com
+    browser / default: GOOGLE_CHROME
+
+Example of running tests on different host, tenant, browser and protocol:
+
+    mvn clean integration-test -Pselenium-test -Dprotocol=http -DtenantName=test -Dhost=other-host.com -Dbrowser=FIREFOX
